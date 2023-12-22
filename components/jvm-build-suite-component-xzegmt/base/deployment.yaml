@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-xzegmt
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-iqpa-tenant/jvm-build-suite-application-qvww/jvm-build-suite-component-xzegmt@sha256:558d97e3c03a9ae2d00f01a0d5838be4e732186051f667c55feb97dce275fa3c
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
