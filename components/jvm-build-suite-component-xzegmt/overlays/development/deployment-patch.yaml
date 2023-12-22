@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-xzegmt
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-iqpa-tenant/jvm-build-suite-application-qvww/jvm-build-suite-component-xzegmt@sha256:558d97e3c03a9ae2d00f01a0d5838be4e732186051f667c55feb97dce275fa3c
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
